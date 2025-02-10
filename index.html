@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>YouTube</title>
+    <link rel="icon" href="Assets/icons/YouTube.png" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/css/general.css"/>
+    <link rel="stylesheet" href="Assets/css/header.css"/>
+    <link rel="stylesheet" href="Assets/css/video.css"/>
+    <link rel="stylesheet" href="Assets/css/sidebar.css">
+    <link rel="stylesheet" href="Assets/css/tooltip.css">
+    <link rel="stylesheet" href="Assets/css/responsive.css">
+    <link rel="stylesheet" href="Assets/css/footer.css">
+
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+
+
+<body>
+<!-- header -->
+<nav class="header">
+    <div class="left-section">
+        <img
+                src="Assets/icons/hamburger-menu.svg"
+                alt=""
+                class="hamburger-menu"
+        />
+        <img
+                src="Assets/icons/youtube-logo.svg"
+                title="YouTube Home"
+                alt=""
+                class="youtube-logo"
+        />
+    </div>
+    <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search"/>
+        <button class="search-button" data-title="Search">
+            <img
+                    src="Assets/icons/search.svg"
+                    alt=""
+                    class="search-icon"
+            />
+        </button>
+        <button class="voice-search-button" data-title="Search with your voice">
+            <img
+                    src="Assets/icons/voice-search-icon.svg"
+                    alt=""
+                    class="voice-search-icon"
+            />
+        </button>
+    </div>
+    <div class="right-section">
+        <button class="right-section-buttons" data-title="Create">
+            <img
+                    src="Assets/icons/upload.svg"
+                    class="upload-icon"
+                    alt=""
+            />
+        </button>
+        <button class="right-section-buttons" data-title="YouTube apps">
+            <img
+                    src="Assets/icons/youtube-apps.svg"
+                    class="youtube-apps-icon"
+                    alt=""
+            />
+        </button>
+        <button class="right-section-buttons" data-title="Notifications">
+            <div class="notifications-icon-container">
+                <img
+                        src="Assets/icons/notifications.svg"
+                        class="notifications-icon"
+                        data-title="Notifications"
+                        alt=""
+                />
+                <div class="notifications-count">3</div>
+            </div>
+        </button>
+        <img
+                src="Assets/logo/channel_me.jpg"
+                class="channel-me-icon"
+                alt=""/>
+    </div>
+</nav>
+
+<main>
+    <!-- sidebar -->
+    <section class="sidebar">
+        <div class="sidebar-link">
+            <img src="Assets/icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="Assets/icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="Assets/icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Assets/icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Assets/icons/youtube-music.svg" alt="">
+            <div>Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Assets/icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </section>
+
+    <!-- video -->
+    <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail1.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    6:31:24
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_01.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">HTML, CSS Full Course-Beginner to Pro-learn in one video</p>
+                    <p class="video-author" chanel-title="Bro Code">SuperSimpleDev</p>
+                    <p class="video-stats">13M views &#183; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail2.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    15:00
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_02.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">What if AI Could Spot Your Lies? | Riccardo Loconte | TED</p>
+                    <p class="video-author" chanel-title="Bro Code">TED</p>
+                    <p class="video-stats">14,386 views &#183; 20 hours ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail3.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    5:11
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_03.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Here Are The Ten Richest People In The World As Of February 2025 | Forbes</p>
+                    <p class="video-author" chanel-title="Tanay Pratap">Forbes</p>
+                    <p class="video-stats">10K views &#183; 4 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail4.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    11:48
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_04.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">I Tried Samsung's Secret Android XR Headset!</p>
+                    <p class="video-author" chanel-title="Dhruv Rathee">Marques Brownlee</p>
+                    <p class="video-stats">2.5M views &#183; 12 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail5.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    13:26
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_05.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Has Samsung Gone TOO Far? Galaxy S25 Ultra</p>
+                    <p class="video-author" chanel-title="Tech Burner">Austin Evans</p>
+                    <p class="video-stats">248K views &#183; 9 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail6.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    12:22
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_06.jpg"
+                            alt=""
+                    />
+
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Honda 0 Series In Depth Tour (Honda 0 Saloon and SUV)</p>
+                    <p class="video-author" chanel-title="Slayy Point">Unbox Therapy</p>
+                    <p class="video-stats">1.2M views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail7.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    22:08
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_07.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The ULTIMATE Sleeper Gaming TV</p>
+                    <p class="video-author" chanel-title="SuperSimpleDev">Linus Tech Tips</p>
+                    <p class="video-stats">1.6M views &#183; 4 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail8.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    18:25
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_08.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">I tested the $2000 RTX 5090 Graphics Card</p>
+                    <p class="video-author" chanel-title="Kunal Kushwaha">Mrwhosetheboss</p>
+                    <p class="video-stats">4.1M views &#183; 2 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail9.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    8:01
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_09.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The 3 Machines to watch out for in 2025 - (They wouldn't let me fly...)</p>
+                    <p class="video-author" chanel-title="Gyan Gamming">JerryRigEverything</p>
+                    <p class="video-stats">323K views &#183; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail10.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    9:04
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_10.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">This Laptop Display Makes Me Jealous as a MacBook User</p>
+                    <p class="video-author" chanel-title="Movieclips">Jonathan Morrison</p>
+                    <p class="video-stats">127K views &#183; 1 month ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail11.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    0:45
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_11.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Unitree's G1 Humanoid Robots are Running Now</p>
+                    <p class="video-author" chanel-title="freeCodeCamp.org">CNET</p>
+                    <p class="video-stats">58K views &#183; 5 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img
+                        class="thumbnail"
+                        src="Assets/thumbnails/thumbnail12.jpg"
+                        alt=""
+                />
+                <div class="video-time">
+                    4:13
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img
+                            class="profile-picture"
+                            src="Assets/logo/channel_12.jpg"
+                            alt=""
+                    />
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Top Programming Languages to Learn in 2025</p>
+                    <p class="video-author" chanel-title="GeeksforGeeks">Programming with Mosh</p>
+                    <p class="video-stats">104K views &#183; 2 weeks ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <hr>
+    <h1>About Me</h1>
+    <div class="footer-intro">
+        <p>
+            As a passionate full-stack developer, I focus on developing scalable, high-performance web applications tailored to the evolving needs of modern businesses. With a strong command of front-end technologies like React and Next.js, 
+            I design dynamic, responsive user interfaces that foster greater user engagement. On the back-end, I am proficient in frameworks such as Node.js, enabling me to build efficient, robust server-side solutions. 
+            My expertise extends to database management, where I work with both relational databases like MySQL and PostgreSQL and NoSQL solutions such as MongoDB to ensure optimal performance and seamless data handling. 
+            I am committed to delivering innovative, tailored solutions that not only enhance user experiences but also drive business success and growth. By leveraging my full-stack capabilities, I integrate both front-end and back-end technologies smoothly, 
+            ensuring a cohesive development process that addresses the unique challenges of each project. My objective is to build efficient, scalable software that empowers businesses to succeed and grow in a digital-first world.
+
+
+        </p>
+    </div>
+    <div class="icons">
+        <a
+                href="https://github.com/spenelope"
+                class="fa fa-github"
+                style="font-size:48px; color:black"
+                target="_blank"
+        ></a>
+        <a
+                href="https://www.linkedin.com/in/penelopesanchez/"
+                class="fa fa-linkedin"
+                style="font-size:48px; color:blue"
+                target="_blue"
+        ></a>
+    </div>
+    <p>©2025 Penelope Sanchez</p>
+</footer>
+</body>
+</html>
